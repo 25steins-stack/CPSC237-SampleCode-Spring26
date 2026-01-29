@@ -9,7 +9,6 @@
 template<class ItemType>
 MagicBox<ItemType>::MagicBox()
 {
-   PlainBox<ItemType>();
    firstItemStored = false; // Box has no magic initially
 } // end default constructor
 
